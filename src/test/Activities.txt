@@ -1,0 +1,51 @@
+export default function Activities() {
+  const formatter = new Intl.DateTimeFormat("default", { month: "short" });
+  const data = [
+    {
+      id: 1,
+      title: "Activity 1",
+      days: ["Jul 7 2021", "Jul 8 2021", "Jul 9 2021", "Jul 10 2021", "Jul 11 2021", "Jul 12 2021"],
+    },
+    {
+      id: 2,
+      title: "Activity 2",
+      days: ["Jul 7 2021", "Jul 8 2021", "Jul 9 2021", "Jul 10 2021", "Jul 11 2021"],
+    },
+  ];
+
+  return (
+    <div className="section hero">
+      <p className="title">My Activities</p>
+      <div style={{width: '100%', maxWidth: '800px', margin: 'auto'}}>
+        {data.map((a) => {
+          return (
+            <div key={a.id} className="box">
+              <div className="activityHeader">
+                <p className="title">{a.title}</p>
+                <button className="button is-danger">
+                  <span className="icon is-small">
+                    <i className="fas fa-trash"></i>
+                  </span>
+                </button>
+              </div>
+
+              <div style={{ display: "flex" }}>
+                {a.days.map((d) => {
+                  let day = new Date(d);
+                  return (
+                    <div
+                      key={d}
+                      className="day"
+                    >{`${day.getDate()}/${formatter.format(day)}`}</div>
+                  );
+                })}
+
+                <button className="button is-light">Today</button>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}

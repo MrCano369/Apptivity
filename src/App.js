@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+import AuthProvider from "./auth/AuthProvider";
+import AppRouter from "./routers/AppRouter";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-function App() {
+export default function App() {
+  //pa ir despertando al backend (heroku 😒)
+  fetch("https://apptivity.herokuapp.com/servertime");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthProvider>
+      <Router>
+        <ToastContainer />
+        <AppRouter />
+      </Router>
+    </AuthProvider>
   );
 }
-
-export default App;
