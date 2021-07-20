@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <AuthProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <ToastContainer />
         <AppRouter />
       </Router>
