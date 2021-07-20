@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/apptivity/static/css/main.d3b7977d.chunk.css",
-    "main.js": "/apptivity/static/js/main.7b62543e.chunk.js",
-    "main.js.map": "/apptivity/static/js/main.7b62543e.chunk.js.map",
+    "main.js": "/apptivity/static/js/main.b9181439.chunk.js",
+    "main.js.map": "/apptivity/static/js/main.b9181439.chunk.js.map",
     "runtime-main.js": "/apptivity/static/js/runtime-main.62530ca7.js",
     "runtime-main.js.map": "/apptivity/static/js/runtime-main.62530ca7.js.map",
     "static/css/2.558864ac.chunk.css": "/apptivity/static/css/2.558864ac.chunk.css",
-    "static/js/2.af4c3279.chunk.js": "/apptivity/static/js/2.af4c3279.chunk.js",
-    "static/js/2.af4c3279.chunk.js.map": "/apptivity/static/js/2.af4c3279.chunk.js.map",
+    "static/js/2.27eb00c1.chunk.js": "/apptivity/static/js/2.27eb00c1.chunk.js",
+    "static/js/2.27eb00c1.chunk.js.map": "/apptivity/static/js/2.27eb00c1.chunk.js.map",
     "index.html": "/apptivity/index.html",
     "static/css/2.558864ac.chunk.css.map": "/apptivity/static/css/2.558864ac.chunk.css.map",
     "static/css/main.d3b7977d.chunk.css.map": "/apptivity/static/css/main.d3b7977d.chunk.css.map",
-    "static/js/2.af4c3279.chunk.js.LICENSE.txt": "/apptivity/static/js/2.af4c3279.chunk.js.LICENSE.txt"
+    "static/js/2.27eb00c1.chunk.js.LICENSE.txt": "/apptivity/static/js/2.27eb00c1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.62530ca7.js",
     "static/css/2.558864ac.chunk.css",
-    "static/js/2.af4c3279.chunk.js",
+    "static/js/2.27eb00c1.chunk.js",
     "static/css/main.d3b7977d.chunk.css",
-    "static/js/main.7b62543e.chunk.js"
+    "static/js/main.b9181439.chunk.js"
   ]
 }
