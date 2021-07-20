@@ -8,6 +8,7 @@ import CreateModal from "./CreateModal";
 export default function Activities() {
   const [activities, setActivities] = useState([]);
   const [createModalState, openCreadeModal, closeCreateModal] = useModal();
+  const { logout, user } = useAuth();
 
   const { get, post } = useFetch();
 
@@ -51,7 +52,6 @@ export default function Activities() {
     getActivities();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const { logout, user } = useAuth();
 
   return (
     <>

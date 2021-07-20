@@ -4,8 +4,14 @@ import { toast } from "react-toastify";
 
 export const AuthContext = createContext();
 
+function getUser() { // La Mamada
+  const info = localStorage.getItem("Apptivity");
+  if (info) return { name: "MrCano369" };
+  return null;
+}
+
 export default function AuthProvider({ children }) {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(getUser());
 
   const { post } = useFetch();
 
@@ -16,6 +22,7 @@ export default function AuthProvider({ children }) {
     );
 
     if (res.err) return toast.error(res.err);
+    
     localStorage.setItem("Apptivity", res.token);
     setUser(userCredencials);
   };
