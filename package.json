@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mrcano369.github.io/Apptivity",
+  "homepage": "https://mrcano369.github.io/apptivity",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@testing-library/jest-dom": "^5.14.1",
