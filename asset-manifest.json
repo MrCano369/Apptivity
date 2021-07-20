@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Apptivity/static/css/main.d3b7977d.chunk.css",
-    "main.js": "/Apptivity/static/js/main.dc52f557.chunk.js",
-    "main.js.map": "/Apptivity/static/js/main.dc52f557.chunk.js.map",
-    "runtime-main.js": "/Apptivity/static/js/runtime-main.41bf2080.js",
-    "runtime-main.js.map": "/Apptivity/static/js/runtime-main.41bf2080.js.map",
-    "static/css/2.558864ac.chunk.css": "/Apptivity/static/css/2.558864ac.chunk.css",
-    "static/js/2.af4c3279.chunk.js": "/Apptivity/static/js/2.af4c3279.chunk.js",
-    "static/js/2.af4c3279.chunk.js.map": "/Apptivity/static/js/2.af4c3279.chunk.js.map",
-    "index.html": "/Apptivity/index.html",
-    "static/css/2.558864ac.chunk.css.map": "/Apptivity/static/css/2.558864ac.chunk.css.map",
-    "static/css/main.d3b7977d.chunk.css.map": "/Apptivity/static/css/main.d3b7977d.chunk.css.map",
-    "static/js/2.af4c3279.chunk.js.LICENSE.txt": "/Apptivity/static/js/2.af4c3279.chunk.js.LICENSE.txt"
+    "main.css": "/apptivity/static/css/main.d3b7977d.chunk.css",
+    "main.js": "/apptivity/static/js/main.dc52f557.chunk.js",
+    "main.js.map": "/apptivity/static/js/main.dc52f557.chunk.js.map",
+    "runtime-main.js": "/apptivity/static/js/runtime-main.62530ca7.js",
+    "runtime-main.js.map": "/apptivity/static/js/runtime-main.62530ca7.js.map",
+    "static/css/2.558864ac.chunk.css": "/apptivity/static/css/2.558864ac.chunk.css",
+    "static/js/2.af4c3279.chunk.js": "/apptivity/static/js/2.af4c3279.chunk.js",
+    "static/js/2.af4c3279.chunk.js.map": "/apptivity/static/js/2.af4c3279.chunk.js.map",
+    "index.html": "/apptivity/index.html",
+    "static/css/2.558864ac.chunk.css.map": "/apptivity/static/css/2.558864ac.chunk.css.map",
+    "static/css/main.d3b7977d.chunk.css.map": "/apptivity/static/css/main.d3b7977d.chunk.css.map",
+    "static/js/2.af4c3279.chunk.js.LICENSE.txt": "/apptivity/static/js/2.af4c3279.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.41bf2080.js",
+    "static/js/runtime-main.62530ca7.js",
     "static/css/2.558864ac.chunk.css",
     "static/js/2.af4c3279.chunk.js",
     "static/css/main.d3b7977d.chunk.css",
